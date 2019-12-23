@@ -1,0 +1,28 @@
+ https://cli.vuejs.org/zh/guide/plugins-and-presets.html#preset
+
+ npm install -g @vue/cli            vue --version  查看版本
+ vue create hello-world             // 创建项目
+
+ npm install vue-router             // 安装路由
+
+ import VueRouter from 'vue-router'     // 引入并配置
+ Vue.use(VueRouter)
+export dfault ({
+    routes:[
+        {
+            path: '/',
+            name: 'HelloWorld',
+            component: HelloWorld
+        },
+    ]
+})             //  基本配置
+
+
+
+        https://www.iconfont.cn/        // iconfont 字体图标    
+
+
+    // 使用stylus 
+    npm install stylus stylus-loader --save-dev
+
+    <style lang="stylus" rel="stylesheet/stylus" >
